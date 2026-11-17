@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A44</title>
+</head>
+<body>
+    <h1>My Personal Notes</h1><br>
+    <input type="text" id="noteTitle" name="note_title" placeholder="Enter note title"><br><br>
+    <textarea id="notes" name="notes" placeholder="write your note"></textarea><br><br>
+    <button id="save" onclick="saveNote()">Save Note</button>
+    <button id="display" onclick="displayNote()">Display Note</button>
+    <button id="clear" onclick="clearNote()">Clear Note</button>
+
+    <h2 id="savedTitle"></h2>
+    <p id="savedNote"></p>
+    <script src="script.js"></script>
+</body>
+</html>
