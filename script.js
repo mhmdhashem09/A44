@@ -35,3 +35,7 @@ function clearNote(){
 
     alert("Note cleared successfully!")
 }
+if (localStorage.getItem("noteTitle") != null) {
+    displayNote();
+}
+
